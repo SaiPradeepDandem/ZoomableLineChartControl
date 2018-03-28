@@ -1,0 +1,97 @@
+
+.toggle-button {
+    -fx-padding: 8 10 8 10;
+    -fx-background-color: #666666;
+    -fx-background-radius: 3, 3, 3, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-vpos: CENTER;
+    -fx-graphic-vpos: CENTER;
+}
+
+.toggle-button:hover {
+    -fx-color: #EEAA4C;
+}
+
+.toggle-button:armed {
+    -fx-color: #EEAA4C;
+}
+
+.toggle-button:focused {
+    -fx-background-color: #666666;
+    -fx-border-color: #EEAA4C;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #1E72AA;
+    -fx-background-radius: 3, 3, 3, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+}
+
+.toggle-button:selected:focused {
+    -fx-background-color: #1E72AA;
+    -fx-border-color: #EEAA4C;
+    -fx-background-radius: 3, 3, 3, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.toggle-button:disabled {
+    -fx-opacity: .4;
+}
+
+/* ******************************************************************************************** */
+.line-chart-control{
+    -fx-border-width:1px;
+    -fx-border-color:#777777;
+}
+.line-chart-control:focused{
+    -fx-border-width:1px;
+    -fx-border-color:orange;
+}
+.chart-mask .chart-mask-background{
+    -fx-background-color:#777777;
+    -fx-opacity:.6;
+}
+.chart-mask .progress-indicator{
+    -fx-progress-color:#F5A732;
+}
+.msg-pane{
+    -fx-background-color:#F5A732,#3B6D99;
+    -fx-background-insets:0,1.5;
+    -fx-background-radius:5,4;
+}
+.msg-pane .label{
+    -fx-text-fill:#F5A732;
+    -fx-font-size:16px;
+    -fx-font-weight:bold;
+}
+.chartnode-hover{
+    -fx-background-color: ORANGE;
+}
+
+.chart-scroll-bar:horizontal .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+
+.chart-scroll-bar:horizontal .increment-button ,
+.chart-scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:9 0 9 0;
+}
+
+.chart-scroll-bar .increment-arrow,
+.chart-scroll-bar .decrement-arrow{
+    -fx-shape: " ";	
+    -fx-padding:0;
+}
+
+.chart-scroll-bar:horizontal .thumb{
+    -fx-background-color:derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
